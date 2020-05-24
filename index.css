@@ -1,0 +1,230 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+.box-shadow {
+    border: 1px solid #3385ff;
+}
+
+/*导航栏*/
+.container .header .title-list {
+    float: right;
+    margin-right: 5px;
+}
+
+.container .header .title-list::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.container .header .title-list li {
+    float: left;
+    padding: 20px 10px;
+}
+
+.container .header .title-list li a {
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+}
+
+.container .header .title-list li a:hover {
+    color: #4587f7;
+}
+
+.container .header .title-list li .red {
+    color: red;
+}
+
+.container .header .title-list li .normal {
+    font-weight: normal;
+}
+
+.container .header .title-list li .pro-show {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 5px;
+    background-color: cornflowerblue;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.container .header .title-list .more-pro-show {
+    position: absolute;
+    right: 0;
+    font-size: 12px;
+    width: 70px;
+    padding: 5px 9px;
+    background: #f9f9f9;
+    display: none;
+}
+
+.container .header .title-list .more-pro-show div,
+.container .header .title-list .more-pro-show a{
+    padding: 20px 0;
+    border-bottom: 1px solid #f0f0f0;
+    text-align: center;
+    width: 70px;
+}
+
+.container .header .title-list .more-pro-show a {
+    display: block;
+    text-decoration: none;
+}
+
+.container .header .title-list .more-pro-show a:last-child {
+    text-decoration: underline;
+}
+
+.container .header .title-list .more-pro-show a:hover {
+    text-decoration: underline;
+}
+
+.container .header .title-list .more-pro-show img {
+    width: 30px;
+    height: 100%;
+}
+
+.container .header .title-list .more-pro-show span {
+    display: block;
+}
+
+/*搜索区域*/
+.search {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.search .search-box .logo img {
+    width: 230px;
+    height: auto;
+    margin-left: 180px;
+    margin-bottom: 10px;
+}
+
+.search .search-box .search-bar input:first-child {
+    width: 540px;
+    height: 36px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    line-height: 36px;
+    outline: none;
+}
+
+.search .search-box .search-bar .spe-cre {
+    margin-left: -60px;
+    height: 36px;
+    margin-top: 9px;
+}
+
+.search .search-box .search-bar .spe-cre a img {
+    width: 17px;
+    height: auto;
+}
+
+.search .search-box .search-bar .spe-cre span {
+    color: #f0f0f0;
+    text-align: center;
+    height: 36px;
+}
+
+.search .search-box .search-bar input:last-child {
+    width: 100px;
+    height: 36px;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    background: #3385ff;
+    border-bottom: 1px solid #2d78f4;
+    margin-left: -1px;
+}
+
+/*二维码*/
+.container .code-box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 132px;
+    position: fixed;
+}
+.container .code-box img{
+    width: 118px;
+    height: auto;
+}
+.container .code-box p{
+    margin-top: 6px;
+}
+.container .code-box p:first-child{
+    color: #333;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 3px;
+}
+.container .code-box p:last-child{
+    color: #999;
+    font-size: 14px;
+    line-height: 14px;
+    font-weight: 300
+}
+
+/*版权信息*/
+.container .footer{
+    position: fixed;
+    width: 100%;
+    height: 40px;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    zoom: 1;
+    margin: 0;
+    background-color: #fafafa;
+    text-align: left;
+    line-height: 40px;
+}
+
+.container .footer ul,
+.container .footer ul li a
+{
+    font-size: 12px;
+    color: #9195a3;
+}
+
+.container .footer .left li{
+    float: left;
+    margin-left: 20px;
+}
+
+.container .footer .right {
+    position: absolute;
+    right: 0;
+}
+
+.container .footer .right li{
+    float: left;
+    margin-right: 20px;
+}
